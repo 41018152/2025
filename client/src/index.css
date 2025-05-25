@@ -1,0 +1,82 @@
+/* index.css */
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 基本字型和背景 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 超連結預設樣式 */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+/* #root 滿版 */
+#root {
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* 按鈕基本樣式 */
+button {
+  cursor: pointer;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+button:focus {
+  background-color: #0056b3;
+  outline: none;
+}
+
+/* 表單元素 */
+input[type="text"],
+input[type="date"],
+input[type="week"] {
+  padding: 6px 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* 清單基本樣式 */
+ul {
+  list-style: none;
+}
+
+/* 標題 */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* 讓 icon 和文字垂直置中（如果你有用 icon） */
+.icon {
+  vertical-align: middle;
+  margin-right: 6px;
+}
