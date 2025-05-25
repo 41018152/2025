@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Check, X, Plus, BookOpen, Clock, Droplets, Heart, Shield, Sparkles } from 'lucide-react';
 
-import React, { useEffect, useState } from 'react';
-
 const weekdays = ['日', '一', '二', '三', '四', '五', '六'];
 const apiBase = 'https://nail-care-api.onrender.com';
 
