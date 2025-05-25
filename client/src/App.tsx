@@ -118,7 +118,6 @@ const App = () => {
   );
 };
 
-export default App;
 
 
 const NailCareTracker = () => {
